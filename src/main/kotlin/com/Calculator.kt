@@ -13,6 +13,8 @@ package com
 
 fun main(args: Array<String>) {
 
+    args.forEach(::println)
+
     while (true) {
 
         println("请输入算式如 3 + 4")
