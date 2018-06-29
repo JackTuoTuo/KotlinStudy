@@ -1,9 +1,11 @@
+package com.classandinterface
+
 /**
  * <pre>
  *     author : Tuo
  *     e-mail : 839539179@qq.com
  *     time   : 2018/6/28 16:57
- *     desc   :
+ *     desc   : 伴生对象 类比 java的静态工具类方法
  *     version: 1.0
  * </pre>
  */
@@ -26,12 +28,11 @@ class Latitude private constructor(val value: Double) {
         }
 
 
-
         /**
          * 方便java调用   @JvmField
          */
         @JvmField
-        val TAG: String = "Latitude"
+        val TAG: String = "com.classandinterface.Latitude"
 
     }
 }

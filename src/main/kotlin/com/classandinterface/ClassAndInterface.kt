@@ -1,3 +1,5 @@
+package com.classandinterface
+
 /**
  * <pre>
  *     author : Tuo
